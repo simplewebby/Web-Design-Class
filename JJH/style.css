@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+}
+body {
+     background: linear-gradient(#e8ca8a, #f5d8b3);
+    height: 1500px;
+     font-family: Arial, Helvetica, sans-serif;
+     }
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+    background: url("img/fall.jpg");
+    background-size: cover;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.header,
+.footer {
+    background-color: rgb(218, 161, 111);
+    color: rgb(57, 35, 16);
+    padding: 15px;
+    text-align: center;
+    font-size: large;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 25%;
+    text-align: center;
+    background-color: #ddc591;
+    height: 550px;
+    display: block;
+    font-weight: 700;
+}
+
+.content {
+    width: 75%;
+   
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    
+    color: #eee;
+    
+}
+.menu li a{
+    color: rgb(57, 35, 16);
+    text-decoration : none;
+}
+.menu ul  li a:hover {
+    color: #ffff;
+}
+.menu li a:hover {
+    color: rgb(40, 22, 7);
+}
+h2 {
+    color: snow;
+}
+li  {
+    color: #fff;
+    padding: 10px;
+}
+.footer {
+    font-size: 20px;
+}
+form {
+    color: #fff;
+}
+input[type=text] {
+    width: 50%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+#jobs {
+    background: #f5d8b3;
+    background-size: cover;
+     height: 700px;
+     
+}
+#menu {
+    background: #f5d8b3;
+    background-size: cover;
+    height: 750px;
+}
+
+#jobM {
+    height: 700px;
+}
+#menu2 {
+    height: 750px;
+}
+
+
+
+
+
+
+
+button {
+    color: rgb(57, 35, 16);
+    padding: 4px 8px;
+    margin-top: 10px;
+    border: rgb(57, 35, 16) solid 1px;
+    background-color: peachpuff;
+    font-size: 16px;
+}
+button:hover {
+    color:#fff;
+    padding: 4px 8px;
+    margin-top: 10px;
+    border: rgb(57, 35, 16) solid 1px;
+    background-color: rgb(45, 26, 10);
+    font-size: 16px;
+}
+ #menuHeader {
+     color: rgb(57, 35, 16);
+ }
+.main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5px;
+}
+.box {
+    margin-top: 30px;
+    background: papayawhip;
+    padding: 10px;
+
+}
+.box3, .box4 {
+    background: #f5d8b3;
+}
+
+.sec1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5px;
+}
+
+.sec2 {
+    display: grid;
+    grid-gap: 5px;
+grid-template-columns: 1fr 2fr;
+}
+
+.dif {
+    padding: 10px;
+    background: blanchedalmond;
+    color: rgb(57, 35, 16);
+}
+
+
+
+
+
+
+@media only screen and (max-width:1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+    
+    }
+    body {
+        height: 600px;
+    }
+    .wrapper {
+      width: 100%;
+      margin: 0;
+      background: url("img/fall.jpg");
+      background-size: cover;
+      box-shadow: none;
+    }
+
+    .header,
+    .footer {
+        background-color: rgb(218, 161, 111);
+        color: rgb(57, 35, 16);
+        padding: 15px;
+        text-align: center;
+        font-size: large;
+    }
+
+    .menu{
+        display: inline;
+        width: 100%;
+        text-align: center;
+        background-color: #ddc591;
+        height: 200px;
+        font-weight: 700;
+        
+    }
+
+    .content {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .menu {
+       
+       height: 70px;
+       list-style:none;
+       margin-top:0;
+       padding:0;
+       text-align:center;   
+    }
+
+    
+
+    .menu li  {
+        display: inline;
+        color: rgb(57, 35, 16);
+        text-decoration: none;
+        padding: 20px;
+    }
+    .menu a {
+        display:inline-block;
+        padding:20px;
+    }
+
+    .menu ul a:hover {
+        color: #ffff;
+    }
+    .column .content ul li  {
+       
+        margin-left: 20%;
+        text-decoration: none;
+    }
+
+    h2 {
+        color: snow;
+    }
+.content{
+    color: #eee;
+    margin-left: 10%;
+}
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    bottom: 0px;
+
+}
+#jobs {
+    background: #f5d8b3;
+    background-size: cover;
+    height: 1100px;
+    width: 100%;
+    margin-left: 0;
+}
+#jobM {
+    height: 50px;
+
+    }
+#menu {
+    background: #f5d8b3;
+    background-size: cover;
+    height: 1100px;
+    width: 100%;
+    margin-left: 0;
+}
+
+#menu2{
+    height: 50px;
+}
+.main {
+    display: grid;
+   grid-template-columns: 1fr 3fr;
+}
+
+.box {
+    margin-top: 30px;
+    background : #f5d8b3;
+    padding: 10px;
+    color: rgb(57, 35, 16);
+}
+.box {
+    margin-top: 30px;
+    background: papayawhip;
+    padding: 10px;
+}
+
+
+
+}
+
+
+ @media only screen and (max-width: 700px) {
+     * {
+         margin: 0;
+         padding: 0;
+     }
+     body {
+         height: 800px;
+     }
+     .wrapper {
+         width: 100%;
+         margin: 0;
+         background: url("img/fall.jpg");
+         background-size: cover;
+         box-shadow: none;
+     }
+     .header,
+     .footer {
+         background-color: rgb(218, 161, 111);
+         color: rgb(57, 35, 16);
+         padding: 9px;
+         text-align: center;
+        
+     }
+     
+     .content {
+         width: 100%;
+         height: 1000px;
+     }
+     .menu {
+         display: grid;
+         flex-wrap: wrap;
+         height: 300px;
+         list-style: none;
+         
+        
+     }
+
+     .menu li {
+       display: flex;
+         color: rgb(57, 35, 16);
+         text-decoration: none;
+         padding: 0%;
+         padding-left: 170px;
+         
+     }
+     .menu ul {
+        text-align: center;
+
+     }
+     .menu ul a:hover {
+        color: #ffff;  
+     }
+     
+     
+     h2 {
+         color: snow;
+         font-size: 24px;
+     }
+     .content {
+         width: 100%;
+         color: #fff;
+         margin-left: 10%;
+     }
+     .footer {
+         position: fixed;
+         width: 100%;
+         height: 100px;
+         bottom: 0px;
+         font-size: 18px;
+     }
+#jobs {
+    background: #f5d8b3;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    margin-left: 0;
+}
+
+#jobM {
+    height: 270px;
+    text-align: center;
+}
+#menu{
+    background: #f5d8b3;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    margin-left: 0;
+}
+
+#menu2 {
+    height: 270px;
+    text-align: center;
+}
+
+ }
